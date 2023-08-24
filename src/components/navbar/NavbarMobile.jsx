@@ -4,7 +4,7 @@ import React from "react";
 
 const NavbarMobile = () => {
   return (
-    <nav className="lg:hidden fixed rounded-t-xl bottom-0 h-2/3 px-3 lg:px-12 pt-14 flex flex-col justify-around w-full items-center font-semibold bg-backgroundTip text-greenTip text-xl max-w-[1560px] mx-auto">
+    <nav className="lg:hidden z-30 fixed rounded-t-xl bottom-0 h-2/3 px-3 lg:px-12 pt-14 flex flex-col justify-around w-full items-center font-semibold bg-backgroundTip text-greenTip text-xl max-w-[1560px] mx-auto">
       {/* left navbar */}
       <div className="flex flex-col lg:hidden items-center space-y-16">
         <Link href="/">Home</Link>
