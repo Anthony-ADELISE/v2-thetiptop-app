@@ -15,6 +15,7 @@ module.exports = {
         greenTip: "#6C7954",
         backgroundTip: "#E7E2DC",
         blackTip: "#3C3C3C",
+        backgroundBlur: "rgba(250, 244, 229, 0.50)",
       },
     },
   },

@@ -18,7 +18,7 @@ const Navbar = () => {
       {isOpen && <NavbarMobile />}
 
       <button
-        className=" flex-col justify-center items-center lg:hidden absolute right-10 z-30 top-20"
+        className=" flex-col justify-center items-center lg:hidden absolute right-10 z-30 top-[65px]"
         onClick={toggleMenu}
         id="button-menu"
         aria-label="button-menu"

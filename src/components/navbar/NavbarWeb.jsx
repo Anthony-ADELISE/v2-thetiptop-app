@@ -4,7 +4,7 @@ import React from "react";
 
 const NavbarWeb = () => {
   return (
-    <nav className="px-3 lg:px-12 pt-14 flex justify-between w-full items-center font-bold text-white text-base max-w-[1560px] mx-auto">
+    <nav className="px-3 lg:px-12 pt-10 flex justify-between w-full items-center font-bold text-white text-base max-w-[1560px] mx-auto">
       {/* left navbar */}
       <div className="hidden lg:flex items-center gap-x-14">
         <Link href="/">Home</Link>
@@ -13,7 +13,7 @@ const NavbarWeb = () => {
       </div>
       {/* logo */}
       <div>
-        <Logo />
+        <Logo width={80} height={80} />
       </div>
       {/* right SideBar */}
       <div className="hidden lg:flex items-center gap-x-20">

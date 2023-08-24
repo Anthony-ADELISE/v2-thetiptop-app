@@ -1,9 +1,9 @@
 import React from "react";
 
-const Logo = () => {
+const Logo = ({ width, height }) => {
   return (
     <>
-      <img width={80} height={80} src="/images/logo-thetiptop.svg" />
+      <img width={width} height={height} src="/images/logo-thetiptop.svg" />
     </>
   );
 };
