@@ -26,6 +26,12 @@ const NavbarMobile = () => {
           Se connecter
         </button>
       </div>
+      <div className="absolute left-0">
+        <img src="/images/kiss-green-tea-left.png" alt="" />
+      </div>
+      <div className="absolute right-0 -top-16">
+        <img src="/images/kiss-green-tea-right.png" alt="" />
+      </div>
     </nav>
   );
 };
