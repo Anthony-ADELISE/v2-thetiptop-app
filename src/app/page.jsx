@@ -29,7 +29,7 @@ function Home() {
             className=" text-3xl font-bold py-8 px-8 rounded-[30px] bg-greenTip/75 text-white"
             href={""}
           >
-            ---
+            →
           </span>
         </Link>
       </div>
