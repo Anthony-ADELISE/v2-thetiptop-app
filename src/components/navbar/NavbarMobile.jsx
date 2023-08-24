@@ -13,7 +13,7 @@ const NavbarMobile = () => {
       </div>
       {/* logo */}
       <div className="hidden">
-        <Logo />
+        <Logo width={80} height={80} />
       </div>
       {/* right SideBar */}
       <div className="flex flex-col lg:hidden items-center gap-y-10 text-base font-bold">
